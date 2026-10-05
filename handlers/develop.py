@@ -13,3 +13,7 @@ async def develop_handler(message: Message):
     await message.answer(f'Команда администратора №1\n\n{get}')
 
 # А это веточка test-new
+
+@router.message(Command('test'))
+async def develop_handler(message: Message):
+    await message.answer(f'Скибиди-до скибиди-ду')
