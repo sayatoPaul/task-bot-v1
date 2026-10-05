@@ -12,4 +12,3 @@ async def develop_handler(message: Message):
     get = develop_get()
     await message.answer(f'Команда администратора №1\n\n{get}')
 
-# ахаешечки датабаешечки это ветка main 
